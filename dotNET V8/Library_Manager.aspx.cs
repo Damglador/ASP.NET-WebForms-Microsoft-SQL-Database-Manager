@@ -33,15 +33,11 @@ namespace dotNET_V8
                 } catch {
                     errID.Visible = true;
                 }
-                if (tbName.Text != "")
-                {
-                    try
-                    {
+                if (tbName.Text != "") {
+                    try {
                         book.Name = tbName.Text;
                         errName.Visible = false;
-                    }
-                    catch
-                    {
+                    } catch {
                         errName.Visible = true;
                     }
                 }
